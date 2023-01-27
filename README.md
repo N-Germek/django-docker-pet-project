@@ -10,6 +10,8 @@
 settings updated, admin updated, url file created, initial migrations ran, application created and registered. -
 19 January 2023
 
+*Version 1.2* Added url paths in project and app, added views. 
+
 ## Links and Resources
 
 back-end server url (when applicable)

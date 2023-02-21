@@ -11,6 +11,7 @@ settings updated, admin updated, url file created, initial migrations ran, appli
 19 January 2023
 
 *Version 1.2* Added url paths in project and app, added views. 
+*Version 1.3* Refactoring. 20 February 2023
 
 ## Links and Resources
 

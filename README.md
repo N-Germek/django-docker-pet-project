@@ -11,28 +11,33 @@ settings updated, admin updated, url file created, initial migrations ran, appli
 19 January 2023
 
 *Version 1.2* Added url paths in project and app, added views. 
-*Version 1.3* Refactoring. 20 February 2023
+
+*Version 1.3* Refactoring - 20 February 2023
+
+*Version 1.4* Refactoring complete, updated README.md, docker working with .env and .requirements.txt working. - 22 February 2023
 
 ## Links and Resources
 
-back-end server url (when applicable)
-front-end application (when applicable)
+[Link to Database](http://0.0.0.0:8000/api/v1/pets/)
+[Admin Login Page](http://0.0.0.0:8000/admin/)
 
 ## Setup
 
 .venv for virtual environment
-.env requirements (where applicable)
-i.e.
+.env requirements
 
-PORT - Port Number
-DATABASE_URL - URL to the running Postgres instance/db
+PORT - - "8000:8000"
+DATABASE_URL - http://0.0.0.0:8000/api/v1/pets/
 
-- How to initialize/run your application (where applicable) 
+- How to initialize/run your application 
+
+- > docker-compose up
+- > docker-compose down
 - > python manage.py runserver
-
-How to use your library (where applicable)
+  
 Tests
 How do you run tests?
-Any tests of note?
-Describe any tests that you did not complete, skipped, etc
 
+python manage.py test 
+
+Link and reminder that admin page is available for those with credentials. You are, however, doing a great job at using your Readme to keep track of your versioning progress.

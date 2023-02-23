@@ -6,5 +6,5 @@ from .models import Pet
 class PetSerializer(serializers.ModelSerializer):
     # need meta class to provide access to database
     class Meta:
-        fields = ('pet_name', 'pet_owner', 'pet_description', 'created_at')
+        fields = ('id', 'pet_name', 'pet_owner', 'pet_description', 'created_at')
         model = Pet
